@@ -11,6 +11,21 @@
     <title>Title</title>
 </head>
 <body>
-新闻查询页面
+<h1>查询页面</h1>
+<form action="QueryNewsServlet" method="post">
+    <table>
+        <tr>
+            <td>新闻标题</td>
+            <td><input type="text" name="title"></td>
+            <td>发布人</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="查询" name="submit">
+            </td>
+        </tr>
+    </table>
+</form>
 </body>
 </html>

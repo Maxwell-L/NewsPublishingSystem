@@ -16,7 +16,10 @@
         <td><a href="addNews.jsp" target="content">发布新闻</a></td>
     </tr>
     <tr>
-        <td><a href=#>功能二</a></td>
+        <td><a href="queryNews.jsp" target="content">查看新闻</a></td>
+    </tr>
+    <tr>
+        <td><a href=#>功能三</a> </td>
     </tr>
 </table>
 </body>

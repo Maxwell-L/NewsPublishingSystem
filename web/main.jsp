@@ -12,7 +12,7 @@
   </head>
   <FRAMESET rows="20%, 80%" bordor="1" frameborder="yes">
     <frame src="title.jsp" name="title">
-    <frameset cols="30%, 70%" frameborder="yes" border="1">
+    <frameset cols="20%, 80%" frameborder="yes" border="1">
       <frame src="menu.jsp" name="menu">
       <frame src="content.jsp" name="content">
     </frameset>
