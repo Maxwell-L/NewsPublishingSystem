@@ -26,7 +26,7 @@
         }
     %>
     <div>
-        <input type="button" value="返回" onclick=window.location.href="register.jsp">
+        <input type="button" value="返回" onclick=window.history.back()>
     </div>
 </div>
 

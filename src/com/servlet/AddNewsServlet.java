@@ -31,21 +31,21 @@ public class AddNewsServlet extends HttpServlet{
         news.setUserid(userid);
         news.setPubtime(pubtime);
 
-        List<String> errorList = new ArrayList<String>();
-        if(title == null || title.equals(" ")){
+        List<String> errorList = new ArrayList<>();
+        if(title == null || title.equals("")){
             errorList.add("新闻标题不能为空！");
         }
         if(!errorList.isEmpty()){
             request.setAttribute("errorList", errorList);
             request.getRequestDispatcher("error.jsp").forward(request, response);
-        }
-
-        AddNewsBean addNewsBean = new AddNewsBean();
-        boolean flag = addNewsBean.addNews(news);
-        if(flag){
-            request.getRequestDispatcher("queryNews.jsp").forward(request, response);
         } else {
-            request.getRequestDispatcher("error.jsp").forward(request, response);
+            AddNewsBean addNewsBean = new AddNewsBean();
+            boolean flag = addNewsBean.addNews(news);
+            if(flag){
+                request.getRequestDispatcher("queryNews.jsp").forward(request, response);
+            } else {
+                request.getRequestDispatcher("error.jsp").forward(request, response);
+            }
         }
     }
 
