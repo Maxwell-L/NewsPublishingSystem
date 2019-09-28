@@ -67,7 +67,7 @@ public class RegisterServlet extends HttpServlet{
             request.setAttribute("errorList", errorList);
             if(errorList.isEmpty()){
                 registerBean.registerUser(user);
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+                request.getRequestDispatcher("correct.jsp").forward(request, response);
             }
             else{
                 request.getRequestDispatcher("error.jsp").forward(request, response);

@@ -13,7 +13,7 @@
 <body>
 <table>
     <tr>
-        <td><a href="content1.jsp" target="content">功能一</a></td>
+        <td><a href="addNews.jsp" target="content">发布新闻</a></td>
     </tr>
     <tr>
         <td><a href=#>功能二</a></td>
