@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<h1>查询页面</h1>
+<h1>查看新闻</h1>
 <form action="QueryNewsServlet" method="post">
     <table>
         <tr>

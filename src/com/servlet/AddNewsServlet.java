@@ -24,12 +24,14 @@ public class AddNewsServlet extends HttpServlet{
         String pubtime = sf.format(date);
         User user = (User)request.getSession().getAttribute("user");
         int userid = user.getId();
+        String username = user.getUsername();
 
         News news = new News();
         news.setTitle(title);
         news.setContent(content);
         news.setUserid(userid);
         news.setPubtime(pubtime);
+        news.setUsername(username);
 
         List<String> errorList = new ArrayList<>();
         if(title == null || title.equals("")){

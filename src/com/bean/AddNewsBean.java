@@ -10,9 +10,9 @@ import java.sql.SQLException;
 public class AddNewsBean {
     public boolean addNews(News news){
         DbHandle db = new DbHandle();
-        String sql = "insert into news(title, content, userid, pubtime) values('" + news.getTitle()
+        String sql = "insert into news(title, content, userid, pubtime, username) values('" + news.getTitle()
                 + "','" + news.getContent() + "','" + news.getUserid() + "','" +
-                news.getPubtime() + "')";
+                news.getPubtime() + "','" + news.getUsername() + "')";
         int ret = db.executeUpdate(sql);
         db.close();
         return ret > 0;
