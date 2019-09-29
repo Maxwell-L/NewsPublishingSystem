@@ -40,4 +40,14 @@
         <servlet-name>QueryNewsServlet</servlet-name>
         <url-pattern>/QueryNewsServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <display-name>GetNewsByIdServlet</display-name>
+        <servlet-name>GetNewsByIdServlet</servlet-name>
+        <servlet-class>com.servlet.GetNewsByIdServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetNewsByIdServlet</servlet-name>
+        <url-pattern>/GetNewsByIdServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

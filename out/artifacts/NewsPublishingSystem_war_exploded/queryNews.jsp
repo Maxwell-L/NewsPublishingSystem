@@ -44,10 +44,9 @@
             <td><%=news.getUsername()%></td>
             <td><%=news.getPubtime()%></td>
             <td colspan="3">
-            <%--
+            <%
                 User user = (User)session.getAttribute("user");
-
-                if(user.getType().equals("1") || user.getId() == news.getUserid()){
+                if(user.getId() == news.getUserid() || user.getType() != null){
             %>
                 <a href="GetNewsByIdServlet?opration=view&id=<%=news.getId()%>">查看</a>
                 <a href="GetNewsByIdServlet?opration=update&id=<%=news.getId()%>">修改</a>
@@ -58,7 +57,7 @@
                 <a href="GetNewsByIdServlet?opration=vied&id=<%=news.getId()%>">查看</a>
                 <%
                     }
-                --%>
+                %>
             </td>
         </tr>
         <%
