@@ -10,9 +10,15 @@ import java.sql.SQLException;
 import java.util.*;
 
 public class QueryNewsBean {
-    public boolean queryNews(String title, String username){
+    public List<News> queryNews(String title, String username){
         DbHandle db = new DbHandle();
-        String sql = "select * from news where title='" + title + "' and username='" + username + "'";
+        String sql = "select * from news n left join user u on n.userid=u.id where 1=1";
+        if(username != null && username.length() > 0){
+            sql = sql + "and u.username like '%" + username + "%'";
+        }
+        if(title != null && title.length() > 0){
+            sql = sql + " and n.title like '%" + title + "%'";
+        }
         ResultSet rs = db.executeQuery(sql);
         List<News> newsList = new ArrayList<>();
         try{
@@ -38,6 +44,6 @@ public class QueryNewsBean {
             System.out.println("查询新闻失败");
             e.printStackTrace();
         }
-        return !newsList.isEmpty();
+        return newsList;
     }
 }

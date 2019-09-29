@@ -30,4 +30,14 @@
         <servlet-name>AddNewsServlet</servlet-name>
         <url-pattern>/AddNewsServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>QueryNewsServlet</display-name>
+        <servlet-name>QueryNewsServlet</servlet-name>
+        <servlet-class>com.servlet.QueryNewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>QueryNewsServlet</servlet-name>
+        <url-pattern>/QueryNewsServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
