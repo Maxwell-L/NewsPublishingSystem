@@ -17,7 +17,7 @@
     <%
         List<String> errorList = (List<String>)request.getAttribute("errorList");
     %>
-    <font color="red" >您的输入有以下错误，请重新输入：</font><br>
+    <h1><font color="red" >操作失败</font></h1>
     <%
         for(String error: errorList){
     %>

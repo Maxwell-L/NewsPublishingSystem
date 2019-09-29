@@ -12,12 +12,12 @@ import java.util.*;
 public class QueryNewsBean {
     public List<News> queryNews(String title, String username){
         DbHandle db = new DbHandle();
-        String sql = "select * from news n left join user u on n.userid=u.id where 1=1";
+        String sql = "select * from news where 1=1";
         if(username != null && username.length() > 0){
-            sql = sql + "and u.username like '%" + username + "%'";
+            sql = sql + " and username like '%" + username + "%'";
         }
         if(title != null && title.length() > 0){
-            sql = sql + " and n.title like '%" + title + "%'";
+            sql = sql + " and title like '%" + title + "%'";
         }
         ResultSet rs = db.executeQuery(sql);
         List<News> newsList = new ArrayList<>();
@@ -40,6 +40,7 @@ public class QueryNewsBean {
 
                 newsList.add(news);
             }
+            db.close();
         } catch(Exception e){
             System.out.println("查询新闻失败");
             e.printStackTrace();
