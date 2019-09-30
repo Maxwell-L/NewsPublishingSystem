@@ -27,16 +27,17 @@
                 <input type="submit" value="查询" name="submit">
             </td>
         </tr>
-        <tr></tr>
-        <tr></tr>
-        <tr>
-            <td>新闻编号</td><td>新闻标题</td><td>发布人</td><td>发布时间</td><td>操作</td>
-        </tr>
+
         <%
             String title = request.getParameter("title");
             String username = request.getParameter("username");
             List<News> newsList = (List<News>)request.getAttribute("newsList");
             if(newsList != null){
+        %>
+        <tr>
+            <td>新闻编号</td><td>新闻标题</td><td>发布人</td><td>发布时间</td><td>操作</td>
+        </tr>
+        <%
                 for(int i = 0; i < newsList.size(); i++){
                     News news = newsList.get(i);
         %>

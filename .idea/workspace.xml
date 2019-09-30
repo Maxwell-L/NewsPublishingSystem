@@ -7,16 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b139e15a-9c13-43ea-80a2-badc676affaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/DeleteNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/DeleteNewsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/QueryNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/QueryNewsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/queryNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/queryNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/DeleteNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/DeleteNewsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/QueryNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/QueryNewsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/queryNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/queryNews.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
+            <state relative-caret-position="318">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -66,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+            <state relative-caret-position="756">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="222">
+              <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -196,9 +186,9 @@
         <option value="$PROJECT_DIR$/src/com/bean/UpdateNewsBean.java" />
         <option value="$PROJECT_DIR$/src/com/bean/DeleteNewsBean.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" />
         <option value="$PROJECT_DIR$/web/queryNews.jsp" />
-        <option value="$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java" />
       </list>
     </option>
   </component>
@@ -295,7 +285,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newspublishingsystem" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569855478884" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569856864631" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tools/apache-tomcat-8.5.38/lib/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -403,12 +393,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569589872827</updated>
-      <workItem from="1569589876231" duration="54141000" />
+      <workItem from="1569589876231" duration="55062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54141000" />
+    <option name="totallyTimeSpent" value="55062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -721,27 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="54" column="83" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -755,6 +728,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bean/DeleteNewsBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -762,13 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
