@@ -21,6 +21,7 @@ public class LoginBean {
             String sex = rs.getString("sex");
             String profession = rs.getString("profession");
             String favourite = rs.getString("favourite");
+            String note = rs.getString("note");
             String type = rs.getString("type");
 
             user.setId(userid);
@@ -29,7 +30,8 @@ public class LoginBean {
             user.setSex(sex);
             user.setProfession(profession);
             user.setFavourite(favourite);
-            user.setNote(type);
+            user.setNote(note);
+            user.setType(type);
 
             db.close();
             return user;
