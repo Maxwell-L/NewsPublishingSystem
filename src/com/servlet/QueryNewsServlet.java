@@ -21,7 +21,11 @@ public class QueryNewsServlet extends HttpServlet{
 
         List<String> errorList = new ArrayList<>();
         if((title == null || title.equals("")) && (username == null || username.equals(""))){
-            errorList.add("查询内容不能为空");
+            title = (String)request.getAttribute("title");
+            username = (String)request.getAttribute("username");
+            if((title == null || title.equals("")) && (username == null || username.equals(""))){
+                errorList.add("查询内容不能为空");
+            }
         }
 
         if(!errorList.isEmpty()){
@@ -30,6 +34,8 @@ public class QueryNewsServlet extends HttpServlet{
         } else {
             QueryNewsBean queryNews = new QueryNewsBean();
             List<News> newsList = queryNews.queryNews(title, username);
+            request.setAttribute("title", title);
+            request.setAttribute("username", username);
             request.setAttribute("newsList", newsList);
             request.getRequestDispatcher("queryNews.jsp").forward(request, response);
         }

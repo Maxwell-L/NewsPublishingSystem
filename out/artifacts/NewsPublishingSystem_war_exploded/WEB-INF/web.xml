@@ -60,4 +60,14 @@
         <servlet-name>UpdateNewsServlet</servlet-name>
         <url-pattern>/UpdateNewsServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>DeleteNewsServlet</display-name>
+        <servlet-name>DeleteNewsServlet</servlet-name>
+        <servlet-class>com.servlet.DeleteNewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteNewsServlet</servlet-name>
+        <url-pattern>/DeleteNewsServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

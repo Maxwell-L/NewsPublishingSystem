@@ -33,6 +33,8 @@
             <td>新闻编号</td><td>新闻标题</td><td>发布人</td><td>发布时间</td><td>操作</td>
         </tr>
         <%
+            String title = request.getParameter("title");
+            String username = request.getParameter("username");
             List<News> newsList = (List<News>)request.getAttribute("newsList");
             if(newsList != null){
                 for(int i = 0; i < newsList.size(); i++){
@@ -50,7 +52,7 @@
             %>
                 <a href="GetNewsByIdServlet?opration=view&id=<%=news.getId()%>">查看</a>
                 <a href="GetNewsByIdServlet?opration=update&id=<%=news.getId()%>">修改</a>
-                <a href="DeleteNewsServlet?id=<%=news.getId()%>">删除</a>
+                <a href="DeleteNewsServlet?title=<%=title%>&username=<%=username%>&id=<%=news.getId()%>">删除</a>
                 <%
                     } else {
                 %>
