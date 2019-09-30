@@ -50,4 +50,14 @@
         <servlet-name>GetNewsByIdServlet</servlet-name>
         <url-pattern>/GetNewsByIdServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>UpdateNewsServlet</display-name>
+        <servlet-name>UpdateNewsServlet</servlet-name>
+        <servlet-class>com.servlet.UpdateNewsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateNewsServlet</servlet-name>
+        <url-pattern>/UpdateNewsServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

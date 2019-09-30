@@ -20,9 +20,6 @@ public class GetNewsByIdServlet extends HttpServlet{
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         int id = Integer.valueOf(request.getParameter("id"));
-        //test
-        System.out.println("成功跳转");
-        //
         GetNewsByIdBean getNewsById = new GetNewsByIdBean();
         News news = null;
         try{
@@ -33,6 +30,12 @@ public class GetNewsByIdServlet extends HttpServlet{
         }
         request.setAttribute("news", news);
         String opration = request.getParameter("opration");
-        request.getRequestDispatcher("viewNews.jsp").forward(request, response);
+        if(opration.equals("view")){
+            request.getRequestDispatcher("viewNews.jsp").forward(request, response);
+        }
+        if(opration.equals("update")){
+            request.getRequestDispatcher("updateNews.jsp").forward(request, response);
+        }
+
     }
 }

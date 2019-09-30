@@ -48,13 +48,13 @@
                 User user = (User)session.getAttribute("user");
                 if(user.getId() == news.getUserid() || user.getType().equals("1")){
             %>
-                <a href="GetNewsByIdServlet?id=<%=news.getId()%>">查看</a>
-                <a href="GetNewsByIdServlet?id=<%=news.getId()%>">修改</a>
+                <a href="GetNewsByIdServlet?opration=view&id=<%=news.getId()%>">查看</a>
+                <a href="GetNewsByIdServlet?opration=update&id=<%=news.getId()%>">修改</a>
                 <a href="DeleteNewsServlet?id=<%=news.getId()%>">删除</a>
                 <%
                     } else {
                 %>
-                <a href="GetNewsByIdServlet?id=<%=news.getId()%>">查看</a>
+                <a href="GetNewsByIdServlet?opration=view&id=<%=news.getId()%>">查看</a>
                 <%
                     }
                 %>
