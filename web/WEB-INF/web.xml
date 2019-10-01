@@ -70,4 +70,14 @@
         <servlet-name>DeleteNewsServlet</servlet-name>
         <url-pattern>/DeleteNewsServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>LoginOutServlet</display-name>
+        <servlet-name>LoginOutServlet</servlet-name>
+        <servlet-class>com.servlet.LoginOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginOutServlet</servlet-name>
+        <url-pattern>/LoginOutServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
