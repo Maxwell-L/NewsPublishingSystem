@@ -80,4 +80,14 @@
         <servlet-name>LoginOutServlet</servlet-name>
         <url-pattern>/LoginOutServlet</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <display-name>UpdatePersonalDataServlet</display-name>
+        <servlet-name>UpdatePersonalDataServlet</servlet-name>
+        <servlet-class>com.servlet.UpdatePersonalDataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdatePersonalDataServlet</servlet-name>
+        <url-pattern>/UpdatePersonalDataServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

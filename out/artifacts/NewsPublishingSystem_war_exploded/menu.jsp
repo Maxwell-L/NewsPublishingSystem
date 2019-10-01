@@ -19,10 +19,10 @@
         <td><a href="queryNews.jsp" target="content">查看新闻</a></td>
     </tr>
     <tr>
-        <td><a href=# target="content">个人资料</a></td>
+        <td><a href="personalData.jsp" target="content">个人资料</a></td>
     </tr>
     <tr>
-        <td><a href="LoginOutServlet" target="login">退出登录</a> </td>
+        <td><a href="LoginOutServlet" target="_top">退出登录</a></td>
     </tr>
 </table>
 </body>

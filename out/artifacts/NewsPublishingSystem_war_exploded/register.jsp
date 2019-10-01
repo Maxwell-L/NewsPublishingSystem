@@ -38,11 +38,10 @@
                 </tr>
                 <tr>
                     <td>个人爱好</td>
-                    <td><input type="checkbox" name="favourite" value="电脑网络">电脑网络
-                        <input type="checkbox" name="favourite" value="影视娱乐">影视娱乐</td>
+                    <td><input type="checkbox" name="favourite" value="电脑网络">电脑网络</td>
+                    <td><input type="checkbox" name="favourite" value="影视娱乐">影视娱乐</td>
                 </tr>
                 <tr>
-                    <td></td>
                     <td><input type="checkbox" name="favourite" value="棋牌娱乐">棋牌娱乐</td>
                 </tr>
                 <tr>

@@ -67,6 +67,9 @@
                 }
             }
         %>
+        <tr>
+            <td><input type="button" value="返回" onclick=window.location.href="content.jsp"></td>
+        </tr>
     </table>
 </form>
 </body>

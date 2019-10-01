@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class LoginServlet extends HttpServlet{
@@ -23,7 +25,10 @@ public class LoginServlet extends HttpServlet{
                 request.getSession().setAttribute("user", user);
                 request.getRequestDispatcher("main.jsp").forward(request, response);
             } else {
-                request.getRequestDispatcher("login.jsp").forward(request, response);
+                List<String> errorList = new ArrayList<>();
+                errorList.add("用户名或密码错误！");
+                request.setAttribute("errorList", errorList);
+                request.getRequestDispatcher("error.jsp").forward(request, response);
             }
         } catch (Exception e){
             System.out.println("登录时访问数据库失败");
