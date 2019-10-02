@@ -8,27 +8,31 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <title>新闻发布系统</title>
 </head>
 <body>
-<div>
-    <h1>登录</h1>
+<div class="block">
+    <p>用 户 登 录</p>
     <form action="LoginServlet" method="post" name="login">
-        <table>
+        <table id="tableStyle">
             <tr>
-                <td>用户名</td>
+                <td class="positionAndColor">用户名</td>
                 <td><input type="text" name="username"></td>
             </tr>
 
             <tr>
-                <td>密码</td>
+                <td class="positionAndColor">密码</td>
                 <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td class="blankRow"></td>
             </tr>
         </table>
         <div>
             <input type="submit" value="登录">
         </div>
-        <input type="button" name="register" value="注册" onclick=window.location.href="register.jsp">
+        <input type="button" name="register" value="没有账号？去注册一个" onclick=window.location.href="register.jsp">
     </form>
 </div>
 

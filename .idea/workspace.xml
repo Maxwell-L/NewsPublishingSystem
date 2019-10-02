@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b139e15a-9c13-43ea-80a2-badc676affaf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/ChangePasswordServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/ChangePasswordServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/image/loginBackGround.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/loginBackGround.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +34,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="224">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+        <entry file="file://$PROJECT_DIR$/web/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -68,6 +58,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -83,7 +74,6 @@
         <option value="$PROJECT_DIR$/src/com/vo/User.java" />
         <option value="$PROJECT_DIR$/src/com/bean/RegisterBean.java" />
         <option value="$PROJECT_DIR$/src/com/serlvet/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/title.jsp" />
         <option value="$PROJECT_DIR$/web/correct.jsp" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
@@ -122,6 +112,8 @@
         <option value="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
       </list>
     </option>
   </component>
@@ -133,10 +125,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1060" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -201,6 +192,18 @@
               <item name="NewsPublishingSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewsPublishingSystem" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsPublishingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsPublishingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsPublishingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsPublishingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -218,8 +221,9 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newspublishingsystem" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570005297979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570020469357" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tools/apache-tomcat-8.5.38/lib/servlet-api.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -327,12 +331,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569589872827</updated>
       <workItem from="1569589876231" duration="63761000" />
-      <workItem from="1569921584670" duration="25828000" />
+      <workItem from="1569921584670" duration="34122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89589000" />
+    <option name="totallyTimeSpent" value="97883000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,7 +351,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35961273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -358,7 +362,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5810056" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40921786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
@@ -768,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="-146">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -778,8 +782,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="224">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
         </state>
       </provider>
     </entry>

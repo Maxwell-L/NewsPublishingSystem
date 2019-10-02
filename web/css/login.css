@@ -1,0 +1,97 @@
+/*
+    登录页面背景
+ */
+body{
+    background-image: url("../image/loginBackGround.png");
+    background-position: center, center;
+}
+/*
+    登录模块
+ */
+.block{
+    border-radius: 20px;
+    position: relative;
+    margin: 200px auto;
+    padding: 5px 20px;
+    width: 360px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+/*
+    登录模块顶部字体
+ */
+p{
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    color: rgba(47, 85, 151, 1);
+}
+
+/*
+    表格
+ */
+#tableStyle{
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+#tableStyle td{
+    height: 40px;
+}
+
+#tableStyle td.positionAndColor{
+    color: rgba(47, 85, 151, 1);
+    text-align: center;
+}
+
+#tableStyle td.blankRow{
+    height: 20px;
+}
+
+/*
+    输入框
+ */
+input[type="text"]{
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="password"]{
+     padding-left: 5px;
+     border-radius: 5px;
+     width: 200px;
+     height: 40px;
+     font-size: 20px;
+     color: black;
+}
+
+input[type="submit"]{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}
+
+input[type="button"]{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(124, 124, 124, 1);
+}
