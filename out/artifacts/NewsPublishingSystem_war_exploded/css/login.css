@@ -61,7 +61,7 @@ input[type="text"]{
     font-size: 20px;
     font-family: 幼圆;
     font-weight: bold;
-    color: black;
+    color: rgba(191, 191, 191, 1);
 }
 
 input[type="password"]{
@@ -70,7 +70,7 @@ input[type="password"]{
      width: 200px;
      height: 40px;
      font-size: 20px;
-     color: black;
+     color: rgba(191, 191, 191, 1);
 }
 
 input[type="submit"]{

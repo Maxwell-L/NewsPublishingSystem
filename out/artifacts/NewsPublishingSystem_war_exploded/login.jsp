@@ -12,25 +12,26 @@
     <title>新闻发布系统</title>
 </head>
 <body>
+<script src="js/login.js"></script>
 <div class="block">
     <p>用 户 登 录</p>
     <form action="LoginServlet" method="post" name="login">
         <table id="tableStyle">
             <tr>
                 <td class="positionAndColor">用户名</td>
-                <td><input type="text" name="username"></td>
+                <td><input type="text" name="username" value="请输入用户名" onfocus="usernamefocus(this)" onblur="usernameblur(this)"></td>
             </tr>
 
             <tr>
                 <td class="positionAndColor">密码</td>
-                <td><input type="password" name="password"></td>
+                <td><input type="text" name="password" value="请输入密码" onfocus="passwordfocus(this)" onblur="passwordblur(this)"></td>
             </tr>
             <tr>
                 <td class="blankRow"></td>
             </tr>
         </table>
         <div>
-            <input type="submit" value="登录">
+            <input type="submit" value="登 录">
         </div>
         <input type="button" name="register" value="没有账号？去注册一个" onclick=window.location.href="register.jsp">
     </form>
