@@ -23,7 +23,7 @@
             </tr>
 
             <tr>
-                <td class="positionAndColor">密码</td>
+                <td class="positionAndColor">密 码</td>
                 <td><input type="text" name="password" value="请输入密码" onfocus="passwordfocus(this)" onblur="passwordblur(this)"></td>
             </tr>
             <tr>
