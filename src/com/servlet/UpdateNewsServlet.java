@@ -22,7 +22,7 @@ public class UpdateNewsServlet extends HttpServlet {
         int id = Integer.valueOf(request.getParameter("id"));
 
         Date date = new Date();
-        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd hh:ss:mm");
+        SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String pubtime = sf.format(date);
         User user = (User)request.getSession().getAttribute("user");
         int userid = user.getId();

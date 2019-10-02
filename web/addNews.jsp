@@ -24,7 +24,7 @@
                 <td><textarea name="content" rows="10" cols="40"></textarea></td>
             </tr>
             <tr>
-                <td><input type="submit" value="提交" name="submit"></td>
+                <td><input type="submit" value="发布" name="submit"></td>
                 <td><input type="reset" value="重置" name="reset"></td>
                 <td><input type="button" value="返回" onclick=window.location.href="content.jsp"></td>
             </tr>

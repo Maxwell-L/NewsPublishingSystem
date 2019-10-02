@@ -90,4 +90,14 @@
         <servlet-name>UpdatePersonalDataServlet</servlet-name>
         <url-pattern>/UpdatePersonalDataServlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <display-name>ChangePasswordServlet</display-name>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <servlet-class>com.servlet.ChangePasswordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <url-pattern>/ChangePasswordServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

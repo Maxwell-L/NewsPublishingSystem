@@ -8,15 +8,22 @@
   <component name="ChangeListManager">
     <list default="true" id="b139e15a-9c13-43ea-80a2-badc676affaf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/LoginOutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/LoginOutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/common/DbHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/common/DbHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/AddNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/AddNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/UpdateNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/classes/com/servlet/UpdateNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/addNews.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NewsPublishingSystem_war_exploded/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/LoginOutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/LoginOutServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/common/DbHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/common/DbHandle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/AddNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/AddNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/UpdateNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewsPublishingSystem/com/servlet/UpdateNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/common/DbHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/common/DbHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/addNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/queryNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/queryNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,17 +51,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+            <state relative-caret-position="666">
+              <caret line="90" column="61" lean-forward="true" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/common/DbHandle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+            <state relative-caret-position="181">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bean/LoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="616">
               <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,11 +81,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bean/RegisterBean.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="166">
+              <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/changePassword.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/servlet/ChangePasswordServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bean/ChangePasswordBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bean/GetNewsByIdBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,59 +150,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bean/UpdatePersonalDataBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+            <state relative-caret-position="179">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/updatePersonalData.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1355">
-              <caret line="90" column="78" lean-forward="true" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="62" column="67" lean-forward="true" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/personalData.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="103" column="92" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="40" column="76" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -166,25 +179,20 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/content1.jsp" />
         <option value="$PROJECT_DIR$/web/content.jsp" />
         <option value="$PROJECT_DIR$/src/com/vo/User.java" />
-        <option value="$PROJECT_DIR$/src/com/common/DbHandle.java" />
         <option value="$PROJECT_DIR$/src/com/bean/RegisterBean.java" />
         <option value="$PROJECT_DIR$/src/com/serlvet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/title.jsp" />
         <option value="$PROJECT_DIR$/web/correct.jsp" />
-        <option value="$PROJECT_DIR$/web/addNews.jsp" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
         <option value="$PROJECT_DIR$/src/com/vo/News.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" />
         <option value="$PROJECT_DIR$/src/com/bean/AddNewsBean.java" />
-        <option value="$PROJECT_DIR$/web/error.jsp" />
         <option value="$PROJECT_DIR$/src/com/bean/QueryNewsBean.java" />
         <option value="$PROJECT_DIR$/src/com/bean/GetNewsByIdBean.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/src/com/bean/LoginBean.java" />
         <option value="$PROJECT_DIR$/web/viewNews.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/GetNewsByIdServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" />
         <option value="$PROJECT_DIR$/web/updateNews.jsp" />
         <option value="$PROJECT_DIR$/src/com/bean/UpdateNewsBean.java" />
         <option value="$PROJECT_DIR$/src/com/bean/DeleteNewsBean.java" />
@@ -192,17 +200,25 @@
         <option value="$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/personalData.jsp" />
         <option value="$PROJECT_DIR$/src/com/bean/GetPersonalDataBean.java" />
-        <option value="$PROJECT_DIR$/web/menu.jsp" />
         <option value="$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java" />
         <option value="$PROJECT_DIR$/web/updatePersonData.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/updatePersonalData.jsp" />
         <option value="$PROJECT_DIR$/src/com/bean/UpdatePersonalDataBean.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java" />
         <option value="$PROJECT_DIR$/src/com/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/personalData.jsp" />
         <option value="$PROJECT_DIR$/web/queryNews.jsp" />
+        <option value="$PROJECT_DIR$/web/addNews.jsp" />
+        <option value="$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java" />
+        <option value="$PROJECT_DIR$/web/menu.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/changePassword.jsp" />
+        <option value="$PROJECT_DIR$/src/com/common/DbHandle.java" />
+        <option value="$PROJECT_DIR$/src/com/bean/ChangePasswordBean.java" />
+        <option value="$PROJECT_DIR$/src/com/servlet/ChangePasswordServlet.java" />
+        <option value="$PROJECT_DIR$/web/error.jsp" />
       </list>
     </option>
   </component>
@@ -257,6 +273,13 @@
               <item name="NewsPublishingSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewsPublishingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewsPublishingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -285,7 +308,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="newspublishingsystem" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569936272950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569986214880" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../tools/apache-tomcat-8.5.38/lib/servlet-api.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,18 +417,27 @@
       <option name="presentableId" value="Default" />
       <updated>1569589872827</updated>
       <workItem from="1569589876231" duration="63761000" />
-      <workItem from="1569921584670" duration="9309000" />
+      <workItem from="1569921584670" duration="21864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73070000" />
+    <option name="totallyTimeSpent" value="85625000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17426273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,16 +448,16 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.34078214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3282123" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -484,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bean/AddNewsBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -501,13 +523,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/addNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -608,26 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/common/DbHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/DeleteNewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -655,9 +650,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/personalData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="103" column="92" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/updatePersonalData.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1355">
+          <caret line="90" column="78" lean-forward="true" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/addNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="40" column="76" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="24" column="71" lean-forward="true" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/servlet/QueryNewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="333">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -665,17 +722,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/menu.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/AddNewsServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="119">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginOutServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bean/RegisterBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        <state relative-caret-position="196">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UpdateNewsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="24" column="74" lean-forward="true" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -692,47 +762,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/RegisterServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="38" column="55" lean-forward="true" selection-start-line="38" selection-start-column="55" selection-end-line="38" selection-end-column="55" />
+        <state relative-caret-position="582">
+          <caret line="62" column="67" lean-forward="true" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bean/GetNewsByIdBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="40" column="76" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bean/UpdatePersonalDataBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/UpdatePersonalDataServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="67" lean-forward="true" selection-start-line="62" selection-start-column="67" selection-end-line="62" selection-end-column="67" />
+        <state relative-caret-position="179">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -741,15 +784,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="91" column="22" lean-forward="true" selection-start-line="91" selection-start-column="22" selection-end-line="91" selection-end-column="22" />
+        <state relative-caret-position="666">
+          <caret line="90" column="61" lean-forward="true" selection-start-line="90" selection-start-column="61" selection-end-line="90" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bean/RegisterBean.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bean/GetNewsByIdBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="588">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bean/ChangePasswordBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/common/DbHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,7 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bean/LoginBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
+        <state relative-caret-position="616">
           <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -768,39 +831,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="189">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/servlet/LoginServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/ChangePasswordServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="30" column="85" lean-forward="true" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+        <state relative-caret-position="535">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/updatePersonalData.jsp">
+    <entry file="file://$PROJECT_DIR$/web/changePassword.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1355">
-          <caret line="90" column="78" lean-forward="true" selection-start-line="90" selection-start-column="78" selection-end-line="90" selection-end-column="78" />
+        <state relative-caret-position="134">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/personalData.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/servlet/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="103" column="92" lean-forward="true" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/queryNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="69" column="12" lean-forward="true" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
+        <state relative-caret-position="166">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

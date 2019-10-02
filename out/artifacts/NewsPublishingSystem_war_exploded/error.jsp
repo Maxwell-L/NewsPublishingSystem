@@ -8,6 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.util.*" %>
 <%@ page import="java.lang.*" %>
+<%@ page import="com.vo.User" %>
 <html>
 <head>
     <title>错误</title>
@@ -26,7 +27,7 @@
         }
     %>
     <div>
-        <input type="button" value="返回" onclick=window.history.back()>
+        <input type="button" value="返回" onclick=window.history.go(-1)>
     </div>
 </div>
 

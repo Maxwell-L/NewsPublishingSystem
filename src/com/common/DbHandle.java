@@ -10,7 +10,7 @@ public class DbHandle {
 
     public void getConnection(){
         final String DRIVERNAME = "com.mysql.cj.jdbc.Driver";
-        final String URL = "jdbc:mysql://localhost:3306/news?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8";
+        final String URL = "jdbc:mysql://localhost:3306/news?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8";
         final String LOGIN = "root";
         final String PASSWORD = "Maxwell1006";
 
