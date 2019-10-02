@@ -16,7 +16,7 @@ import java.util.List;
 
 public class UpdateNewsServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        request.setCharacterEncoding("UTF-8");
+        //request.setCharacterEncoding("UTF-8");
         String title = request.getParameter("title");
         String content = request.getParameter("content");
         int id = Integer.valueOf(request.getParameter("id"));

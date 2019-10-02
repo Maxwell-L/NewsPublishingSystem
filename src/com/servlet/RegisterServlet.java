@@ -19,7 +19,7 @@ public class RegisterServlet extends HttpServlet{
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         try{
-            request.setCharacterEncoding("UTF-8");
+            //request.setCharacterEncoding("UTF-8");
             String username = request.getParameter("username");
             String password = request.getParameter("password");
             String repassword = request.getParameter("repassword");
@@ -68,8 +68,7 @@ public class RegisterServlet extends HttpServlet{
             if(errorList.isEmpty()){
                 registerBean.registerUser(user);
                 request.getRequestDispatcher("correct.jsp").forward(request, response);
-            }
-            else{
+            } else{
                 request.getRequestDispatcher("error.jsp").forward(request, response);
             }
         } catch(Exception e){

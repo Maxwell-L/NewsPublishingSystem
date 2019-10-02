@@ -13,7 +13,7 @@ import java.util.List;
 
 public class UpdatePersonalDataServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        request.setCharacterEncoding("UTF-8");
+        //request.setCharacterEncoding("UTF-8");
         try{
             User user = (User)request.getSession().getAttribute("user");
 

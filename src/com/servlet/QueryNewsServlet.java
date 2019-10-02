@@ -15,7 +15,7 @@ import java.util.*;
 
 public class QueryNewsServlet extends HttpServlet{
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        request.setCharacterEncoding("UTF-8");
+        //request.setCharacterEncoding("UTF-8");
         String title = request.getParameter("title");
         String username = request.getParameter("username");
 
