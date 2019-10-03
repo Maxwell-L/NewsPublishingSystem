@@ -28,7 +28,7 @@
                 </tr>
                 <tr>
                     <td class="positionAndColor">确认密码</td>
-                    <td><input type="password" name="repassword" placeholder="请再一次输入密码" onfocus="passwordfocus(this)" onblur="repasswordblur(this)"></td>
+                    <td><input type="password" name="repassword" placeholder="请再一次输入密码" onfocus="repasswordfocus(this)" onblur="repasswordblur(this)"></td>
                 </tr>
                 <tr>
                     <td class="positionAndColor">性 别</td>

@@ -1,0 +1,47 @@
+/*
+    错误页面背景
+ */
+body{
+    background-image: url("../image/errorBackGround.png");
+    background-position: center, center;
+}
+
+.block{
+    border-radius: 20px;
+    position: relative;
+    margin: 200px auto;
+    padding: 5px 20px;
+    width: 360px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+p{
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    color: red;
+}
+
+/*
+    错误信息样式
+ */
+.errorMessage{
+    color: red;
+    font-weight: bold;
+    font-family: 幼圆;
+    font-size: 20px;
+    height: 35px;
+}
+
+input[type="button"]{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}

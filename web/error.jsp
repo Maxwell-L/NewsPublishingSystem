@@ -11,23 +11,24 @@
 <%@ page import="com.vo.User" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/error.css">
     <title>错误</title>
 </head>
 <body>
-<div>
+<div class="block">
     <%
         List<String> errorList = (List<String>)request.getAttribute("errorList");
     %>
-    <h1><font color="red" >操作失败</font></h1>
+    <p><font color="red" >操 作 失 败</font></p>
     <%
         for(String error: errorList){
     %>
-    <font color="red" ><%= error%></font><br>
+    <div class="errorMessage"><font color="red" ><%= error%></font></div>
     <%
         }
     %>
     <div>
-        <input type="button" value="返回" onclick=window.history.go(-1)>
+        <input type="button" value="返 回" onclick=window.history.go(-1)>
     </div>
 </div>
 

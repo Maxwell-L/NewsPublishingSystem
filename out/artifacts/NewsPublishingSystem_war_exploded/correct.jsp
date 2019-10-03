@@ -8,15 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/correct.css">
     <title>注册成功</title>
 </head>
 <body>
-    <div>
-        <font color="red">恭喜你注册成功！</font>
+    <div class="block">
+        <p>注 册 成 功</p>
+        <div>
+            <input type="button" value="立即登录" onclick=window.location.href="login.jsp">
+        </div>
     </div>
-        <input type="button" value="立即登录" onclick=window.location.href="login.jsp">
-    <div>
-
-</div>
 </body>
 </html>

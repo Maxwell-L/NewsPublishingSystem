@@ -1,0 +1,40 @@
+/*
+    注册成功页面背景
+ */
+body{
+    background-image: url("../image/loginBackGround.png");
+    background-position: center, center;
+}
+
+/*
+    注册成功模块
+ */
+.block{
+    border-radius: 20px;
+    position: relative;
+    margin: 200px auto;
+    padding: 5px 20px;
+    width: 360px;
+    height: 330px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+p{
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    color: rgba(47, 85, 151, 1);
+}
+
+input[type="button"]{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}

@@ -9,9 +9,6 @@ body{
 /*
     注册模块
  */
-/*
-    登录模块
- */
 .block{
     border-radius: 20px;
     position: relative;
@@ -134,4 +131,5 @@ textarea{
     color: black;
     border-radius: 5px;
     background-color: white;
+    overflow-y: hidden;
 }

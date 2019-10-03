@@ -20,9 +20,25 @@ function passwordblur(x) {
     }
 }
 
+function repasswordfocus(x) {
+    if(x.type == "text" || x.placeholder != ""){
+        x.style.color = "black";
+        x.placeholder = "";
+        x.value = "";
+        x.type = "password";
+    }
+}
+
 function repasswordblur(x) {
-    var rePassword = document.forms["register"]["repassword"].value
+    var rePassword = document.forms["register"]["repassword"].value;
     if(rePassword == null || rePassword == ""){
         x.placeholder = "请再一次输入密码";
+    } else {
+        var password = document.forms["register"]["password"].value;
+        if(password != rePassword){
+            x.style.color = "red";
+            x.type = "text";
+            x.value = "输入密码不一致"
+        }
     }
 }
