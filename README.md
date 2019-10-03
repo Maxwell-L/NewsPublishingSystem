@@ -7,3 +7,7 @@ Introduction
 Login
 --------
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/loginPage.png "登录界面")
+
+Register
+---------
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/registerPage.png "注册界面")
