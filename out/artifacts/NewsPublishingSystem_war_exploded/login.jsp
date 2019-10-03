@@ -19,12 +19,12 @@
         <table id="tableStyle">
             <tr>
                 <td class="positionAndColor">用户名</td>
-                <td><input type="text" name="username" value="请输入用户名" onfocus="usernamefocus(this)" onblur="usernameblur(this)"></td>
+                <td><input type="text" name="username" placeholder="请输入用户名" onfocus="usernamefocus(this)" onblur="usernameblur(this)"></td>
             </tr>
 
             <tr>
                 <td class="positionAndColor">密 码</td>
-                <td><input type="text" name="password" value="请输入密码" onfocus="passwordfocus(this)" onblur="passwordblur(this)"></td>
+                <td><input type="password" name="password" placeholder="请输入密码" onfocus="passwordfocus(this)" onblur="passwordblur(this)"></td>
             </tr>
             <tr>
                 <td class="blankRow"></td>

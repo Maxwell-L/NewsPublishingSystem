@@ -1,10 +1,14 @@
 /*
-    登录页面背景
+    注册页面背景
  */
 body{
     background-image: url("../image/loginBackGround.png");
     background-position: center, center;
 }
+
+/*
+    注册模块
+ */
 /*
     登录模块
  */
@@ -17,9 +21,28 @@ body{
     height: 330px;
     background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    overflow: hidden;
 }
 /*
-    登录模块顶部字体
+    隐藏滚动条
+ */
+.innerBlock{
+    width: 400px;
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.submitCenter{
+    padding-left: 130px;
+    padding-right: 170px;
+}
+.buttonCenter{
+    padding-left: 105px;
+    padding-right: 145px;
+}
+/*
+    模块顶部文字
  */
 p{
     font-size: 35px;
@@ -29,13 +52,14 @@ p{
 }
 
 /*
-    表格
+    表格样式
  */
 #tableStyle{
+    height: 100%;
     font-family: 幼圆;
     font-weight: bold;
     font-size: 20px;
-    width: 100%;
+    width: 360px;
 }
 #tableStyle td{
     height: 40px;
@@ -45,14 +69,20 @@ p{
     color: rgba(47, 85, 151, 1);
     text-align: center;
 }
+/*
+    单选框和复选框
+ */
+#tableStyle td.select{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}
 
 #tableStyle td.blankRow{
     height: 20px;
 }
 
-/*
-    输入框
- */
 input[type="text"]{
     padding-left: 5px;
     border-radius: 5px;
@@ -61,16 +91,16 @@ input[type="text"]{
     font-size: 20px;
     font-family: 幼圆;
     font-weight: bold;
-    color: black;
+    color:black;
 }
 
 input[type="password"]{
-     padding-left: 5px;
-     border-radius: 5px;
-     width: 200px;
-     height: 40px;
-     font-size: 20px;
-     color: black;
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    color:black;
 }
 
 input[type="submit"]{
@@ -94,4 +124,14 @@ input[type="button"]{
     font-family: 幼圆;
     font-weight: bold;
     color: rgba(124, 124, 124, 1);
+}
+
+textarea{
+    height: 100px;
+    width: 200px;
+    font-family: 幼圆;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
 }
