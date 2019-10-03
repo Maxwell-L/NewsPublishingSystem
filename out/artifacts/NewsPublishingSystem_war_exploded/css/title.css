@@ -1,0 +1,31 @@
+/*
+    title背景
+ */
+body{
+    background-image: url("../image/titleBackGround.png");
+    background-position: center, left;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#tableStyle{
+    float: right;
+    font-weight: bold;
+    font-family: 幼圆;
+    font-size: 18px;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyle td{
+    width: 100px;
+    height: 20px;
+}
+
+#tableStyle td.user{
+    width: auto;
+    padding-right: 10px;
+}
+

@@ -10,11 +10,11 @@
   <head>
     <title>新闻发布系统</title>
   </head>
-  <FRAMESET rows="20%, 80%" bordor="1" frameborder="yes">
-    <frame src="title.jsp" name="title">
+  <FRAMESET rows="22%, 78%" bordor="1" frameborder="no">
+    <frame src="title.jsp" name="title" noresize="noresize">
     <frameset cols="20%, 80%" frameborder="yes" border="1">
-      <frame src="menu.jsp" name="menu">
-      <frame src="content.jsp" name="content">
+      <frame src="menu.jsp" name="menu" noresize="noresize">
+      <frame src="content.jsp" name="content" noresize="noresize">
     </frameset>
   </FRAMESET>
   <body>

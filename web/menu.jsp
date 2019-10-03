@@ -24,9 +24,6 @@
     <tr>
         <td><a href="changePassword.jsp" target="content">修改密码</a></td>
     </tr>
-    <tr>
-        <td><a href="LoginOutServlet" target="_top">退出登录</a></td>
-    </tr>
 </table>
 </body>
 </html>
