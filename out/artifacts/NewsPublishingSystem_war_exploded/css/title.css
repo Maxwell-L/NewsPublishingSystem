@@ -6,22 +6,17 @@ body{
     background-position: center, left;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 #tableStyle{
     float: right;
     font-weight: bold;
     font-family: 幼圆;
     font-size: 18px;
-    color: rgba(47, 85, 151, 1);
 }
 
 #tableStyle td{
     width: 100px;
     height: 20px;
+    color: rgba(47, 85, 151, 1);
 }
 
 #tableStyle td.user{
@@ -29,3 +24,8 @@ a{
     padding-right: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: rgba(100,100,100, 1);
+    font-size: 14px;
+}

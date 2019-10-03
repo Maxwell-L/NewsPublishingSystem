@@ -56,7 +56,7 @@ public class UpdatePersonalDataServlet extends HttpServlet {
             }
             if(!errorList.isEmpty()){
                 request.setAttribute("errorList", errorList);
-                request.getRequestDispatcher("error.jsp").forward(request, response);
+                request.getRequestDispatcher("homeError.jsp").forward(request, response);
             } else {
                 updatePersonalData.updatePersonalData(newUser);
                 request.getSession().removeAttribute("user");

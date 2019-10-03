@@ -43,7 +43,7 @@ public class ChangePasswordServlet extends HttpServlet {
             //根据是否有错误信息进行跳转
             if(!errorList.isEmpty()){
                 request.setAttribute("errorList", errorList);
-                request.getRequestDispatcher("error.jsp").forward(request, response);
+                request.getRequestDispatcher("homeError.jsp").forward(request, response);
             } else { // 没有错误信息
                 User newUser = new User();
                 // 更换密码

@@ -16,3 +16,7 @@ Register
 Home
 -------
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/homePage.png "首页")
+
+Publish News
+--------------
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/addNewsPage.png "发布新闻页面")

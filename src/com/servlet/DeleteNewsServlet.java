@@ -31,7 +31,7 @@ public class DeleteNewsServlet extends HttpServlet {
                 List<String> errorList = new ArrayList<>();
                 errorList.add("删除新闻失败！");
                 request.setAttribute("errorList", errorList);
-                request.getRequestDispatcher("error.jsp").forward(request, response);
+                request.getRequestDispatcher("homeError.jsp").forward(request, response);
             }
         }catch(Exception e){
             System.out.println("删除新闻失败");

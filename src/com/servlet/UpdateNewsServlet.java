@@ -34,7 +34,7 @@ public class UpdateNewsServlet extends HttpServlet {
         }
         if(!errorList.isEmpty()){
             request.setAttribute("errorList", errorList);
-            request.getRequestDispatcher("error.jsp").forward(request, response);
+            request.getRequestDispatcher("homeError.jsp").forward(request, response);
         }
 
         News news = new News();
