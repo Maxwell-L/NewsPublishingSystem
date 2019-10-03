@@ -1,0 +1,18 @@
+/*
+    操作区背景
+ */
+body{
+    background-image: url("../image/contentBackGround.png");
+    background-position: center, center;
+}
+
+.showMessage{
+    margin: 50px auto;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 幼圆;
+    color: black;
+    text-align: center;
+    height: auto;
+}

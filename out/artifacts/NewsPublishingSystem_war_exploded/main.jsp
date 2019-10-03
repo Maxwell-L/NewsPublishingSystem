@@ -10,9 +10,9 @@
   <head>
     <title>新闻发布系统</title>
   </head>
-  <FRAMESET rows="22%, 78%" bordor="1" frameborder="no">
+  <FRAMESET rows="22%, 78%" border="5" bordercolor="#87CEFA" frameborder="1">
     <frame src="title.jsp" name="title" noresize="noresize">
-    <frameset cols="20%, 80%" frameborder="yes" border="1">
+    <frameset cols="12%, 88%" frameborder="1" border="5" bordercolor="#87CEFA">
       <frame src="menu.jsp" name="menu" noresize="noresize">
       <frame src="content.jsp" name="content" noresize="noresize">
     </frameset>

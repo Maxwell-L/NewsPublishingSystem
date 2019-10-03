@@ -8,10 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
     <title>Title</title>
 </head>
 <body>
-<table>
+<table id="tableStyle">
     <tr>
         <td><a href="addNews.jsp" target="content">发布新闻</a></td>
     </tr>

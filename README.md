@@ -12,3 +12,7 @@ Register
 ---------
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/registerPage.png "注册界面")
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/registerSuccessfulPage.png "注册成功界面")
+
+Home
+-------
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/homePage.png "首页")
