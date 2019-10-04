@@ -29,3 +29,18 @@ Home
 > ### Modify News
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/updateNewsPage.png "修改新闻页面")
 
+> ### Personal Data
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/viewPersonalDataPage.png "查看个人资料页面")
+
+> ### Modify Personal Data
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/modifyPersonalDataPage.png "修改个人资料页面")
+
+
+Error
+--------
+> ###
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/errorPage.png "登陆前操作失败页面")
+
+> ###
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/homeErrorPage.png "登录后操作失败页面")
+
