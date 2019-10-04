@@ -10,22 +10,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/updatePersonalData.css">
     <title>Title</title>
 </head>
 <%
     User user = (User)request.getSession().getAttribute("user");
 %>
 <body>
-<h1>修改个人资料</h1>
+<div class="block">
+<p>个 人 资 料</p>
 <form action="UpdatePersonalDataServlet" method="post">
-    <table>
+    <table id="tableStyleTop">
         <tr>
-            <td>用户名</td>
+            <td class="positionAndColor">用户名</td>
             <td><input type="text" name="username" value="<%=user.getUsername()%>"></td>
-        </tr>
 
-        <tr>
-            <td>权限</td>
+            <td class="positionAndColor">权 限</td>
             <%
                 int type = Integer.valueOf(user.getType());
                 String limit;
@@ -39,7 +39,7 @@
         </tr>
 
         <tr>
-            <td>性别</td>
+            <td class="positionAndColor">性 别</td>
             <%
                 String sex = user.getSex();
                 if (sex.equals("男")) {
@@ -54,57 +54,66 @@
             <%
                 }
             %>
-        </tr>
-        <tr>
-            <td>职业</td>
+
+            <td class="positionAndColor">职 业</td>
             <td><input type="text" name="profession" value="<%=user.getProfession()%>"></td>
         </tr>
+    </table>
+    <table id="tableStyleMedium">
         <tr>
+            <td class="positionAndColor">个人爱好</td>
             <%
                 String favourite = user.getFavourite();
                 String[] favourites = favourite.split(",");
                 List<String> favouritesList = Arrays.asList(favourites);
                 if(favouritesList.contains("电脑网络")){
             %>
-            <td><input type="checkbox" name="favourite" value="电脑网络" checked>电脑网络</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="电脑网络" checked>电脑网络</td>
             <%
             } else {
             %>
-            <td><input type="checkbox" name="favourite" value="电脑网络">电脑网络</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="电脑网络">电脑网络</td>
             <%
                 }
                 if(favouritesList.contains("影视娱乐")){
             %>
-            <td><input type="checkbox" name="favourite" value="影视娱乐" checked>影视娱乐</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="影视娱乐" checked>影视娱乐</td>
             <%
             } else {
             %>
-            <td><input type="checkbox" name="favourite" value="影视娱乐">影视娱乐</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="影视娱乐">影视娱乐</td>
             <%
                 }
                 if(favouritesList.contains("棋牌娱乐")){
             %>
-            <td><input type="checkbox" name="favourite" value="棋牌娱乐" checked>棋牌娱乐</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="棋牌娱乐" checked>棋牌娱乐</td>
             <%
             } else {
             %>
-            <td><input type="checkbox" name="favourite" value="棋牌娱乐">棋牌娱乐</td>
+            <td class="checkbox"><input type="checkbox" name="favourite" value="棋牌娱乐">棋牌娱乐</td>
             <%
                 }
             %>
         </tr>
-
+    </table>
+    <table id="tableStyleBottom">
         <tr>
-            <td>个人说明</td>
+            <td class="positionAndColor">个人说明</td>
             <td><textarea rows="10" cols="30" name="note"><%=user.getNote()%></textarea></td>
         </tr>
-        <tr></tr>
-
+    </table>
+    <table id="tableLink">
         <tr>
-            <td><input type="submit" value="保存" name="submit"></td>
-            <td><input type="button" value="返回" onclick=window.history.back()></td>
+            <td></td>
+            <td></td>
+            <td><input type="submit" value="保 存" name="submit"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><input type="button" value="返 回" onclick=window.history.back()></td>
         </tr>
     </table>
 </form>
+</div>
 </body>
 </html>

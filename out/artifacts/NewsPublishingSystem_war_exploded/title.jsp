@@ -15,13 +15,14 @@
     <title>Title</title>
 </head>
 <body>
+<script src="js/loginOut.js"></script>
 <%
     User user = (User)session.getAttribute("user");
 %>
 <table id="tableStyle">
     <tr>
         <td class="user">欢迎 <%=user.getUsername() %></td>
-        <td><a target="_top" href="LoginOutServlet">退出登录</a></td>
+        <td><a onclick="return loginOut()" target="_top" href="LoginOutServlet">退出登录</a></td>
     </tr>
 </table>
 
