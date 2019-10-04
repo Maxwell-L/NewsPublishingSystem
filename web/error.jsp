@@ -19,11 +19,11 @@
     <%
         List<String> errorList = (List<String>)request.getAttribute("errorList");
     %>
-    <p><font color="red" >操 作 失 败</font></p>
+    <p>操 作 失 败</p>
     <%
         for(String error: errorList){
     %>
-    <div class="errorMessage"><font color="red" ><%= error%></font></div>
+    <div class="errorMessage"><%= error%></div>
     <%
         }
     %>
