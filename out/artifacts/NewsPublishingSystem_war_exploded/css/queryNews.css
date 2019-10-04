@@ -1,0 +1,143 @@
+body{
+    background-image: url("../image/contentBackGround.png");
+    background-position: center, center;
+}
+/*
+查询新闻模块
+*/
+.block{
+    margin: 30px 80px 30px 80px;
+    position: relative;
+    text-align: center;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+p{
+    padding-top: 15px;
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyle{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tableStyle td.positionAndColor{
+    text-align: center;
+    width: 100px;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableSubmit{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tableSubmit td{
+    width: 100px;
+}
+
+input[type="text"]{
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black;
+}
+
+.subBlock{
+     margin: 10px 60px 30px 60px;
+     position: relative;
+     text-align: center;
+     height: 320px;
+     border-radius: 20px;
+     overflow: hidden;
+ }
+
+.subSubBlock{
+    width: 1100px;
+    text-align: center;
+    height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#tableNewsStyle{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tableNewsStyle td{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    color: black;
+    border: 1px rgba(47, 85, 151, 1) solid;
+}
+
+#tableNewsStyle td.color{
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableNewsStyle td.id{
+    width: 100px;
+}
+
+#tableNewsStyle td.title{
+    width: 300px;
+    text-align: left;
+}
+
+#tableNewsStyle td.person{
+    width: 150px;
+}
+
+#tableNewsStyle td.time{
+    width: 200px;
+}
+
+input[type="button"]{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}
+
+input[type="submit"]{
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}
+
+a{
+    text-decoration: none;
+    color: rgba(47, 85, 151, 1);
+}

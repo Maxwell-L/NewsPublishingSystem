@@ -17,6 +17,8 @@ Home
 -------
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/homePage.png "首页")
 
-Publish News
---------------
+### Publish News
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/addNewsPage.png "发布新闻页面")
+
+### Query News
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/queryNewsPage.png "查询新闻页面")
