@@ -14,7 +14,7 @@
     <title>Title</title>
 </head>
 <body>
-
+<script src="js/queryNews.js"></script>
 <div class="block">
 <p>查 看 新 闻</p>
 <form action="QueryNewsServlet" method="post" name="queryNews">
@@ -74,7 +74,7 @@
             %>
                 <a href="GetNewsByIdServlet?opration=view&id=<%=news.getId()%>">查看</a>
                 <a href="GetNewsByIdServlet?opration=update&id=<%=news.getId()%>">修改</a>
-                <a href="DeleteNewsServlet?title=<%=title%>&username=<%=username%>&id=<%=news.getId()%>">删除</a>
+                <a onclick="return del()" href="DeleteNewsServlet?title=<%=title%>&username=<%=username%>&id=<%=news.getId()%>">删除</a>
                 <%
                     } else {
                 %>

@@ -22,3 +22,10 @@ Home
 
 > ### Query News
 ![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/queryNewsPage.png "查询新闻页面")
+
+> ### View News
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/viewNewsPage.png "查看新闻页面")
+
+> ### Modify News
+![](https://github.com/Maxwell-L/NewsPublishingSystem/blob/master/display/updateNewsPage.png "修改新闻页面")
+

@@ -35,23 +35,24 @@ public class UpdateNewsServlet extends HttpServlet {
         if(!errorList.isEmpty()){
             request.setAttribute("errorList", errorList);
             request.getRequestDispatcher("homeError.jsp").forward(request, response);
+        } else{
+            News news = new News();
+            news.setId(id);
+            news.setUserid(userid);
+            news.setContent(content);
+            news.setTitle(title);
+            news.setPubtime(pubtime);
+            news.setUsername(username);
+
+            UpdateNewsBean updateNews = new UpdateNewsBean();
+            boolean flag = updateNews.updateNews(news);
+            if(flag){
+                request.getRequestDispatcher("queryNews.jsp").forward(request, response);
+            } else {
+                request.getRequestDispatcher("homeError.jsp").forward(request, response);
+            }
         }
 
-        News news = new News();
-        news.setId(id);
-        news.setUserid(userid);
-        news.setContent(content);
-        news.setTitle(title);
-        news.setPubtime(pubtime);
-        news.setUsername(username);
-
-        UpdateNewsBean updateNews = new UpdateNewsBean();
-        boolean flag = updateNews.updateNews(news);
-        if(flag){
-            request.getRequestDispatcher("queryNews.jsp").forward(request, response);
-        } else {
-            request.getRequestDispatcher("error.jsp").forward(request, response);
-        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{

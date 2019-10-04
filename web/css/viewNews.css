@@ -1,0 +1,104 @@
+body{
+    background-image: url("../image/contentBackGround.png");
+    background-position: center, center;
+}
+/*
+发布新闻模块
+*/
+.block{
+    margin: 30px 80px 30px 80px;
+    position: relative;
+    text-align: center;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+p{
+    padding-top: 15px;
+    font-size: 35px;
+    font-family: 幼圆;
+    font-weight: bolder;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyle{
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#tableStyle td.positionAndColor{
+    text-align: center;
+    width: 100px;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyle td.blankRow{
+    height: 20px;
+}
+
+#tableStyle input[type="text"]{
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 800px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black;
+}
+
+textarea{
+    padding: 10px;
+    border-radius: 5px;
+    width: 800px;
+    height: 240px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black;
+}
+
+#tableStyleBottom{
+    margin-top: 20px;
+    padding-left: 80px;
+    font-family: 幼圆;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyleBottom td{
+    width: 100px;
+}
+
+#tableStyleBottom input[type="text"]{
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: black;
+}
+
+#tableStyleBottom input[type="button"]{
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 幼圆;
+    font-weight: bold;
+    color: rgba(47, 85, 151, 1);
+}
+
+#tableStyleBottom td.halfWidth{
+    width: 40px;
+}
